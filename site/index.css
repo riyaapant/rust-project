@@ -1,0 +1,40 @@
+li{
+    list-style-type: none;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    column-gap: 30px;
+    padding: 2px;
+}
+a{
+    color: black;
+}
+.brand-name{
+    font-family: "Alfa Slab One", serif;
+    font-size: 8rem;
+}
+.nav-header{
+    display: flex;
+    justify-content: space-around;
+}
+.starting-links{
+    display: flex;
+    flex-direction: column;
+}
+.get-started{
+    color: black;
+    background-color: #ffc832;
+    border: 1px solid;
+    border-color: #ffc832;
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 2.25rem;
+    margin-top: 20px;
+}
+.get-started:hover{
+    border-color: black;
+}
