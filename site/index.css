@@ -38,3 +38,41 @@ a{
 .get-started:hover{
     border-color: black;
 }
+.about-rust{
+    background-color: #0b7261;
+    color: white;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    height: 500px;
+    position: absolute;
+}
+.why-rust{
+    margin: 40px 20px;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    position: relative;
+    top: 10px;
+    left: 80px;
+    font-size: 35px;
+}
+.highlight{
+    position: relative;
+    top: -25px;
+    left: 100px;
+    background-color: #2e2459;
+    height: 12px;
+    width: 220px;
+}
+.section{
+
+    display: flex;
+    justify-content: space-around;
+}
+.about-rust-section{
+    justify-content: space-around;   
+    padding: 0 100px;
+}
+.about-rust-section h2{
+    font-size: 30px;
+}
+.about-rust-section p{
+    font-size: 18px;
+}
