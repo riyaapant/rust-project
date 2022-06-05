@@ -38,41 +38,116 @@ a{
 .get-started:hover{
     border-color: black;
 }
-.about-rust{
+.green{
     background-color: #0b7261;
+    height: 480px;
     color: white;
     font-family: "Fira Sans", Helvetica, Arial, sans-serif;
-    height: 500px;
-    position: absolute;
 }
-.why-rust{
-    margin: 40px 20px;
+
+.green-heading{
+    letter-spacing: -1px;
+    display:inline-block;
     font-family: "Fira Sans", Helvetica, Arial, sans-serif;
     position: relative;
-    top: 10px;
-    left: 80px;
-    font-size: 35px;
+    width: fit-content;
+    top: 20px;
+    left: 100px;
+    font-size: 40px;
 }
-.highlight{
+
+.green-highlight{
     position: relative;
-    top: -25px;
     left: 100px;
     background-color: #2e2459;
     height: 12px;
     width: 220px;
 }
-.section{
-
+.green-section{
     display: flex;
-    justify-content: space-around;
+    text-align: left;
+    margin: 10px 30px;
 }
-.about-rust-section{
-    justify-content: space-around;   
-    padding: 0 100px;
+.gh{
+    font-size: 35px;
+    padding: 15px -20;
 }
-.about-rust-section h2{
-    font-size: 30px;
-}
-.about-rust-section p{
+.gp{
     font-size: 18px;
+}
+.sec{
+    height: auto;
+    width: auto;
+    flex: 1;
+    padding: 0 60px;
+}
+.purple{
+    background-color: #2e2459;;
+    height: auto;
+    color: white;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+}
+.purple-heading{
+    letter-spacing: -1px;
+    display:inline-block;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    position: relative;
+    width: fit-content;
+    top: 20px;
+    left: 100px;
+    font-size: 40px;
+}
+.purple-highlight{
+    position: relative;
+    left: 100px;
+    top: -10px;
+    background-color: #a72145;
+    height: 12px;
+    width: 290px;
+}
+.purple a{
+    color: white;
+}
+.p-info{
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 20px 102px 0 102px;
+}
+.images{
+    margin: auto;
+    width: 85%;
+    display: flex;
+}
+.img{
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    padding: 30px 10px;
+}
+.desc{
+    font-size: 25px;
+}
+.info{
+    margin: 20px 20px;
+    text-align: left;
+    font-size: 18px;
+    height: 130px;
+}
+.purple-button{
+    background-color: #a72145;
+    border: 1px solid #a72145;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 35px;
+    font-weight: 600;
+    display: inline-block;
 }
