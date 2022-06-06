@@ -1,31 +1,42 @@
-li{
+body {
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+}
+
+li {
     list-style-type: none;
 }
-.navbar-container{
+
+.navbar-container {
     display: flex;
     justify-content: space-between;
 }
-.nav-links{
+
+.nav-links {
     display: flex;
     column-gap: 30px;
     padding: 2px;
 }
-a{
+
+a {
     color: black;
 }
-.brand-name{
+
+.brand-name {
     font-family: "Alfa Slab One", serif;
     font-size: 8rem;
 }
-.nav-header{
+
+.nav-header {
     display: flex;
     justify-content: space-around;
 }
-.starting-links{
+
+.starting-links {
     display: flex;
     flex-direction: column;
 }
-.get-started{
+
+.get-started {
     color: black;
     background-color: #ffc832;
     border: 1px solid;
@@ -35,20 +46,20 @@ a{
     font-size: 2.25rem;
     margin-top: 20px;
 }
-.get-started:hover{
+
+.get-started:hover {
     border-color: black;
 }
-.green{
+
+.green {
     background-color: #0b7261;
     height: 480px;
     color: white;
-    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
 }
 
-.green-heading{
+.green-heading {
     letter-spacing: -1px;
-    display:inline-block;
-    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    display: inline-block;
     position: relative;
     width: fit-content;
     top: 20px;
@@ -56,48 +67,55 @@ a{
     font-size: 40px;
 }
 
-.green-highlight{
+.green-highlight {
     position: relative;
     left: 100px;
+    top: -5px;
     background-color: #2e2459;
     height: 12px;
     width: 220px;
 }
-.green-section{
+
+.green-section {
     display: flex;
     text-align: left;
     margin: 10px 30px;
 }
-.gh{
+
+.gh {
     font-size: 35px;
     padding: 15px -20;
 }
-.gp{
+
+.gp {
     font-size: 18px;
 }
-.sec{
+
+.sec {
     height: auto;
     width: auto;
     flex: 1;
     padding: 0 60px;
 }
-.purple{
-    background-color: #2e2459;;
-    height: auto;
+
+.purple {
+    background-color: #2e2459;
+    ;
+    height: 740px;
     color: white;
-    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
 }
-.purple-heading{
+
+.purple-heading {
     letter-spacing: -1px;
-    display:inline-block;
-    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    display: inline-block;
     position: relative;
     width: fit-content;
     top: 20px;
     left: 100px;
     font-size: 40px;
 }
-.purple-highlight{
+
+.purple-highlight {
     position: relative;
     left: 100px;
     top: -10px;
@@ -105,39 +123,47 @@ a{
     height: 12px;
     width: 290px;
 }
-.purple a{
+
+.purple a {
     color: white;
 }
-.p-info{
+
+.p-info {
     box-sizing: border-box;
     font-size: 18px;
     padding: 20px 102px 0 102px;
 }
-.images{
+
+.images {
     margin: auto;
     width: 85%;
     display: flex;
 }
-.img{
+
+.img {
     flex: 1;
     text-align: center;
     margin: 0 10px;
 }
-.image{
+
+.image {
     width: 100px;
     height: 100px;
     padding: 30px 10px;
 }
-.desc{
+
+.desc {
     font-size: 25px;
 }
-.info{
+
+.info {
     margin: 20px 20px;
     text-align: left;
     font-size: 18px;
     height: 130px;
 }
-.purple-button{
+
+.purple-button {
     background-color: #a72145;
     border: 1px solid #a72145;
     text-decoration: none;
@@ -150,4 +176,189 @@ a{
     min-height: 35px;
     font-weight: 600;
     display: inline-block;
+}
+
+.white {
+    background-color: white;
+    height: auto;
+    color: black;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.white-heading {
+    letter-spacing: -1px;
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+    top: 20px;
+    left: 100px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.white-highlight {
+    position: relative;
+    left: 100px;
+    top: -10px;
+    background-color: #ffc832;
+    height: 12px;
+    width: 370px;
+}
+
+.wp {
+    font-size: 1.7rem;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin: 20px 50px 20px 100px;
+    padding: 10px 10px 10px 0px;
+}
+
+.wp strong {
+    font-weight: 800;
+}
+
+.testimonials {
+    box-sizing: border-box;
+    margin: 20px 50px 20px 100px;
+    width: 80%;
+}
+.testim {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.testim-text{
+    width: 70%;
+    padding-left: 50px;
+}
+
+.testim-logo {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.npm-logo {
+    width: 70%;
+    padding: 10px 10px 10px 100px;
+}
+
+.yelp-logo {
+    width: 70%;
+    padding-left: 50px;
+    padding-right: 0px;
+}
+
+blockquote {
+    font-size: 1.7em;
+    color: #2a3439;
+    box-sizing: border-box;
+    border-bottom: 1px dotted #2a3439;
+    padding: 5px;
+}
+
+.attribution {
+    font-size: 1.5em;
+    text-align: right;
+}
+blockquote::before {
+    content: "“";
+    color: #2a3439;
+    font-size: 3em;
+    position: relative;
+    left: -40px;
+    top: 20px;
+}
+.white-button{
+    background-color: #ffc832;
+    border: 1px solid #ffc832;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px 30px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: auto;
+    display: block;
+    width: 80%;
+    min-height: 35px;
+    font-size: 0.8em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.red{
+    background-color: #a72145;
+    height: 600px;
+    color: white;
+    box-sizing: border-box;
+    height: 570px;
+}
+.red-heading {
+    letter-spacing: -1px;
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+    top: 20px;
+    left: 100px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.red-highlight {
+    position: relative;
+    left: 100px;
+    top: -10px;
+    background-color: #2e2459;
+    height: 12px;
+    width: 250px;
+}
+.red-div{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: auto;
+    width: 85%;
+    height: fit-content;
+}
+.subheading{
+    font-size: 1.6em;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.red-para{
+    font-size: 18px;
+    height: max-content;
+    line-height: 1.8em;
+}
+.read{
+    flex: 1;
+    margin-right: 36px;
+}
+.watch{
+    flex: 1;
+}
+.contribute{
+width: 100%;
+}
+.red-button{
+    background-color: #2e2459;
+    border: 1px solid #2e2459;
+    color: white;
+    border-radius: 4px;
+    min-height: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    padding: 12px 30px;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+}
+.white2{
+    height: 800px;
 }
