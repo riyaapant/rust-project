@@ -1,5 +1,6 @@
 body {
     font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    margin: 0px;
 }
 
 li {
@@ -7,48 +8,96 @@ li {
 }
 
 .navbar-container {
+    font-size: 18px;
     display: flex;
     justify-content: space-between;
+    padding-top: 15px;
+    padding-right: 4px;
+}
+
+.rust-logo {
+    width: 80px;
+    margin-left: 5px;
+    margin-top: -10px;
 }
 
 .nav-links {
     display: flex;
-    column-gap: 30px;
+    column-gap: 50px;
     padding: 2px;
 }
 
-a {
-    color: black;
+.nav-links select {
+    border: 1px solid black;
+    width: fit-content;
+    height: 25px;
+    font-size: 18px;
+    background-color: white;
+    padding: 1px 5px;
 }
-
+.nav-links a{
+    color: #2a3439;
+}
 .brand-name {
     font-family: "Alfa Slab One", serif;
-    font-size: 8rem;
+    font-size: 7rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.8px;
 }
 
 .nav-header {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 40px 10px 50px 100px;
     display: flex;
     justify-content: space-around;
 }
 
-.starting-links {
+.brand-intro {
     display: flex;
     flex-direction: column;
+    height: fit-content;
+    width: 80%;
+}
+
+.brand-intro p {
+    font-size: 35px;
+    box-sizing: border-box;
+}
+
+.starting-links {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0px 40px;
 }
 
 .get-started {
     color: black;
+    text-transform: uppercase;
     background-color: #ffc832;
-    border: 1px solid;
-    border-color: #ffc832;
+    border: 1px solid #ffc832;
     border-radius: 4px;
-    padding: 20px;
-    font-size: 2.25rem;
+    font-size: 1.6rem;
+    font-weight: 550;
     margin-top: 20px;
+    width: 370px;
+    height: 80px;
+}
+
+.starting-links a {
+    text-align: center;
+    color: #4299bf;
+    font-size: 1.6rem;
+    margin: 20px;
 }
 
 .get-started:hover {
     border-color: black;
+    cursor: pointer;
 }
 
 .green {
@@ -224,13 +273,15 @@ a {
     margin: 20px 50px 20px 100px;
     width: 80%;
 }
+
 .testim {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 40px;
 }
-.testim-text{
+
+.testim-text {
     width: 70%;
     padding-left: 50px;
 }
@@ -263,6 +314,7 @@ blockquote {
     font-size: 1.5em;
     text-align: right;
 }
+
 blockquote::before {
     content: "“";
     color: #2a3439;
@@ -271,7 +323,8 @@ blockquote::before {
     left: -40px;
     top: 20px;
 }
-.white-button{
+
+.white-button {
     background-color: #ffc832;
     border: 1px solid #ffc832;
     text-decoration: none;
@@ -289,12 +342,14 @@ blockquote::before {
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
-.red{
+
+.red {
     background-color: #a72145;
     color: white;
     box-sizing: border-box;
     height: 570px;
 }
+
 .red-heading {
     letter-spacing: -1px;
     display: inline-block;
@@ -314,7 +369,8 @@ blockquote::before {
     height: 12px;
     width: 250px;
 }
-.red-div{
+
+.red-div {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -322,27 +378,33 @@ blockquote::before {
     width: 85%;
     height: fit-content;
 }
-.subheading{
+
+.subheading {
     font-size: 1.6em;
     font-weight: 900;
     margin: 20px 0px;
 }
-.red-para{
+
+.red-para {
     font-size: 18px;
     height: max-content;
     line-height: 1.8em;
 }
-.read{
+
+.read {
     flex: 1;
     margin-right: 36px;
 }
-.watch{
+
+.watch {
     flex: 1;
 }
-.contribute{
-width: 100%;
+
+.contribute {
+    width: 100%;
 }
-.red-button{
+
+.red-button {
     background-color: #2e2459;
     border: 1px solid #2e2459;
     color: white;
@@ -358,13 +420,15 @@ width: 100%;
     text-align: center;
     box-sizing: border-box;
 }
-.white2{
+
+.white2 {
     background-color: white;
     height: 600px;
     color: black;
     box-sizing: border-box;
     height: 570px;
 }
+
 .w2-heading {
     letter-spacing: -1px;
     display: inline-block;
@@ -375,6 +439,7 @@ width: 100%;
     font-size: 38px;
     font-weight: 600;
 }
+
 .w2-highlight {
     position: relative;
     left: 100px;
@@ -383,31 +448,37 @@ width: 100%;
     height: 12px;
     width: 150px;
 }
-.w2-container{
+
+.w2-container {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
     width: 90%;
     margin: 0px 10px 0px 100px;
 }
-.w2-para{
+
+.w2-para {
     width: 100%;
     font-size: 1.8rem;
     text-align: left;
 }
-.w2{
+
+.w2 {
     flex: 1;
     margin-right: 20px;
 }
-.w2 h2{
+
+.w2 h2 {
     font-size: 1.6em;
     letter-spacing: 1px;
-    font-weight:950;
+    font-weight: 950;
 }
-.w2 p{
+
+.w2 p {
     font-size: 1.2rem;
 }
-.w2-buttons{
+
+.w2-buttons {
     text-transform: uppercase;
     background-color: #ffc832;
     border: 1px solid #ffc832;
@@ -422,59 +493,72 @@ width: 100%;
     text-align: center;
     box-sizing: border-box;
 }
-footer{
+
+footer {
     background-color: #2a3439;
     color: white;
     height: 500px;
 }
-.f-container{
+
+.f-container {
     box-sizing: border-box;
     width: 90%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
 }
-.links{
+
+.links {
     flex: 1;
     display: flex;
     justify-content: space-around;
     margin: 20px 10px 30px 80px;
 }
-.link-sec{
+
+.link-sec {
     display: flex;
     flex-direction: column;
 }
-.link-buttons{
-  color: #ffc832;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 10px 0px;
+
+.link-buttons {
+    color: #ffc832;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 0px;
 }
-select{
+
+#f-language {
     height: 29px;
     font-size: 18px;
     margin-top: 20px;
     width: fit-content;
 }
-#help, #tap{
+
+#help,
+#tap {
     width: 35%;
 }
-#social{
+
+#social {
     flex: 1;
 }
-.icons{
+
+.icons {
     display: flex;
 }
-.s-icon{
+
+.s-icon {
     width: 40px;
     margin: 10px;
 }
-.closing{
+
+.closing {
     box-sizing: border-box;
     width: 70%;
     margin: auto;
     font-size: 18px;
 }
-.closing p{
+
+.closing p {
     text-align: center;
 }

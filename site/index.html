@@ -16,9 +16,7 @@
     <header>
         <nav class="navbar-container">
             <a href="index.html">
-                <!-- <img src="https://www.rust-lang.org/static/images/rust-logo-blk.svg" alt="rust-logo" height="80" -->
-                <!-- width="80"> -->
-                <img src="/media/rust-logo.svg" alt="logo">
+                <img class="rust-logo" src="/media/rust-logo.svg" alt="logo">
             </a>
 
             <ul class="nav-links">
@@ -43,11 +41,18 @@
                 <li class="nav-link">
                     <a href="#">Blog</a>
                 </li>
+                <select>
+                    <option value="">English (en-US)</option>
+                    <option value="">Espanol (es)</option>
+                    <option value="">Italiano (it)</option>
+                    <option value="">Nepali (np)</option>
+                    <option value="">Korean (kor)</option>
+                </select>
             </ul>
         </nav>
 
         <div class="nav-header">
-            <div>
+            <div class="brand-intro">
                 <h1 class="brand-name">Rust</h1>
                 <p>A language empowering everyone
                     to build reliable and efficient software.</p>
@@ -223,7 +228,7 @@
                     <a class="link-buttons" href="#">Documentation</a>
                     <a class="link-buttons" href="#">Rust Forge (Contributor Documentation)</a>
                     <a class="link-buttons" href="#">Ask a Question on the Users Forum</a>
-                    <select id="language">
+                    <select id="f-language">
 
                         <option value="">English (en-US)</option>
                         <option value="">Espanol (es)</option>
@@ -256,8 +261,7 @@
                     Maintained by the Rust Team. See a bug? <a class="link-buttons" href="#">File an issue</a>!
                 </p>
                 <p>
-                    Looking for the <a class="link-buttons"
-                    href="#">previous website</a>?
+                    Looking for the <a class="link-buttons" href="#">previous website</a>?
                 </p>
             </div>
         </div>
